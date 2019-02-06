@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # File: guessinggame.sh
 
-dirarray=($(ls -d */))
+dirarray=($(ls -d *))
 dircount=${#dirarray[@]}
 dirguess=0
 
